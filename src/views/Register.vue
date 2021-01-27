@@ -299,9 +299,12 @@
               </div>
             </div>
             <div class="text-center mt-4">
-              <a class="no-underline hover:text-indigo-500 text-base" href="#">
-                Change to another style?
-              </a>
+              <router-link
+                class="no-underline hover:text-indigo-500 text-base"
+                to="/signup"
+              >
+                Change to another register style?
+              </router-link>
             </div>
           </div>
         </div>

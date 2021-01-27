@@ -57,12 +57,12 @@
                 </div>
               </form>
               <div class="text-center mt-4">
-                <a
+                <router-link
                   class="no-underline hover:underline text-blue-dark text-xs"
-                  href="{{ route('password.request') }}"
+                  to="/reset"
                 >
                   Forgot Your Password?
-                </a>
+                </router-link>
               </div>
             </div>
           </div>
