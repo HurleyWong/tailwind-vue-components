@@ -1,108 +1,28 @@
 <template>
-  <div class="group inline-block">
-    <button
-      class="outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
-    >
-      <span class="pr-1 font-semibold flex-1">Dropdown</span>
-      <span>
-        <svg
-          class="fill-current h-4 w-4 transform group-hover:-rotate-180
-        transition duration-150 ease-in-out"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-        >
-          <path
-            d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-          />
-        </svg>
-      </span>
-    </button>
-    <ul
-      class="font-medium text-base bg-white mt-2 py-2 w-48 z-20 rounded-md shadow-xl transform scale-0 group-hover:scale-100 absolute
-  transition duration-150 ease-in-out origin-top"
-    >
-      <li class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500">
-        <a
-          href="#"
-          class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
-        >
-          Programming
-        </a>
-      </li>
-      <li class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500">
-        <a
-          href="#"
-          class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
-        >
-          DevOps
-        </a>
-      </li>
-      <li class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500">
-        <a
-          href="#"
-          class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
-        >
-          Language
-        </a>
-      </li>
-      <li class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500">
-        <a
-          href="#"
-          class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
-        >
-          Testing
-        </a>
-      </li>
-    </ul>
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 h-screen">
+      <div class="max-h-96 md:h-screen">
+        <img
+          class="w-screen h-screen object-cover object-top"
+          src="https://images.pexels.com/photos/270373/pexels-photo-270373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt=""
+        />
+      </div>
+      <div class="flex bg-gray-100 p-10">
+        <div class="mb-auto mt-auto max-w-lg">
+          <h1 class="text-3xl">Hurley Huang</h1>
+          <p class="font-semibold mb-5">Fresh graduated master at UoL</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+            odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+            Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+            pede.
+          </p>
+          <button class="bg-black rounded-md py-3 px-7 mt-6 text-white">
+            Email Me
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: "About"
-  // mounted() {
-  //   const s1 = document.createElement("script");
-  //   s1.src =
-  //     "https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js";
-  //   s1.defer;
-  //   document.body.appendChild(s1);
-  // }
-};
-</script>
-
-<style>
-/* since nested groupes are not supported we have to use 
-     regular css for the nested dropdowns 
-  */
-li > ul {
-  transform: translatex(100%) scale(0);
-}
-li:hover > ul {
-  transform: translatex(101%) scale(1);
-}
-li > button svg {
-  transform: rotate(-90deg);
-}
-li:hover > button svg {
-  transform: rotate(-270deg);
-}
-
-/* Below styles fake what can be achieved with the tailwind config
-     you need to add the group-hover variant to scale and define your custom
-     min width style.
-  	 See https://codesandbox.io/s/tailwindcss-multilevel-dropdown-y91j7?file=/index.html
-  	 for implementation with config file
-  */
-.group:hover .group-hover\:scale-100 {
-  transform: scale(1);
-}
-.group:hover .group-hover\:-rotate-180 {
-  transform: rotate(180deg);
-}
-.scale-0 {
-  transform: scale(0);
-}
-.min-w-32 {
-  min-width: 8rem;
-}
-</style>
