@@ -96,62 +96,62 @@
                     <li
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
-                      <a
-                        href="#"
+                      <router-link
+                        to="/components/basic"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
                         Basic
-                      </a>
+                      </router-link>
                     </li>
                     <li
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
-                      <a
-                        href="#"
+                      <router-link
+                        to="/components/form"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
                         Form
-                      </a>
+                      </router-link>
                     </li>
                     <li
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
-                      <a
-                        href="#"
+                      <router-link
+                        to="/components/data"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
                         Data
-                      </a>
+                      </router-link>
                     </li>
                     <li
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
-                      <a
-                        href="#"
+                      <router-link
+                        to="/components/notice"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
                         Notice
-                      </a>
+                      </router-link>
                     </li>
                     <li
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
-                      <a
-                        href="#"
+                      <router-link
+                        to="/components/navigation"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
                         Navigation
-                      </a>
+                      </router-link>
                     </li>
                     <li
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
-                      <a
-                        href="#"
+                      <router-link
+                        to="/components/others"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
                         Others
-                      </a>
+                      </router-link>
                     </li>
                   </ul>
                 </div>
