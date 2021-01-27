@@ -74,8 +74,7 @@
                   >
                     Components
                     <svg
-                      class="w-3.5 h-4 ml-2 transform group-hover:-rotate-180
-        transition duration-150 ease-in-out"
+                      class="w-3.5 h-4 ml-2 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -90,8 +89,7 @@
                     </svg>
                   </a>
                   <ul
-                    class="font-medium text-base bg-white mt-2 py-2 w-40 z-20 rounded-md shadow-xl transform scale-0 group-hover:scale-100 absolute
-  transition duration-150 ease-in-out origin-top"
+                    class="font-medium text-base bg-white mt-2 py-2 w-40 z-20 rounded-md shadow-xl transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top"
                   >
                     <li
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
@@ -155,6 +153,77 @@
                     </li>
                   </ul>
                 </div>
+
+                <div class="group inline-block">
+                  <a
+                    href="#"
+                    class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-medium tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out"
+                  >
+                    Links
+                    <svg
+                      class="w-3.5 h-4 ml-2 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="3"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </a>
+                  <ul
+                    class="font-medium text-base bg-white mt-2 py-2 w-40 z-20 rounded-md shadow-xl transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top"
+                  >
+                    <li
+                      class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
+                    >
+                      <a
+                        href="https:/hurley.fun"
+                        target="_"
+                        class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
+                      >
+                        Portfolio
+                      </a>
+                    </li>
+                    <li
+                      class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
+                    >
+                      <a
+                        href="https://tech.hurley.fun"
+                        target="_"
+                        class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
+                      >
+                        Tech Site
+                      </a>
+                    </li>
+                    <li
+                      class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
+                    >
+                      <a
+                        href="https://blog.tech.fun"
+                        target="_"
+                        class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
+                      >
+                        Blog
+                      </a>
+                    </li>
+                    <li
+                      class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
+                    >
+                      <a
+                        href="https://interview.hurley.fun"
+                        target="_"
+                        class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
+                      >
+                        Interview
+                      </a>
+                    </li>
+                  </ul>
+                </div>
                 <router-link
                   to="/about"
                   class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-medium tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out"
@@ -181,15 +250,15 @@
           <!-- hero section -->
           <div class="lg:2/6 xl:w-2/4 mt-20 lg:mt-40 lg:ml-16 text-left">
             <div class="text-6xl font-semibold text-gray-900 leading-none">
-              Bring all your work together
+              Tailwind CSS Componentes
             </div>
             <div class="mt-6 text-xl font-light text-true-gray-500 antialiased">
-              A better experience for yout attendees and less stress yout team.
+              A repository for community components using Tailwind CSS.
             </div>
             <button
-              class="mt-6 px-8 py-4 rounded-full font-normal tracking-wide bg-gradient-to-b from-blue-600 to-blue-700 text-white outline-none focus:outline-none hover:shadow-lg hover:from-blue-700 transition duration-200 ease-in-out"
+              class="mt-6 px-8 py-4 rounded-full font-semibold tracking-wide bg-gradient-to-b from-blue-600 to-blue-700 text-white outline-none focus:outline-none hover:shadow-lg hover:from-blue-700 transition duration-200 ease-in-out"
             >
-              Download for Free
+              Don't hesitate to use
             </button>
           </div>
           <div class="mt-12 lg:mt-32 lg:ml-20 text-left">
