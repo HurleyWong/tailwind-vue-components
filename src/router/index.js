@@ -38,6 +38,11 @@ const routes = [
     name: "Reset",
     component: () => import("../views/Reset.vue")
   },
+  {
+    path: "/test",
+    name: "Test",
+    component: () => import("../views/Test.vue")
+  },
 
   // --- Components ---
   {

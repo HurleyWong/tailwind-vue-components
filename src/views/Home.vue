@@ -47,11 +47,11 @@
               <div
                 class="hidden lg:flex items-center justify-center antialiased lg:ml-20 pt-1"
               >
-                <a
-                  href="#"
+                <router-link
+                  to="/test"
                   class="flex items-center justify-center mr-10 text-base text-gray-700 text-opacity-90 font-medium tracking-tight hover:text-cool-gray-600 transition duration-150 ease-in-out"
                 >
-                  Product
+                  Test
                   <svg
                     class="w-3.5 h-4 ml-2"
                     fill="none"
@@ -66,7 +66,7 @@
                       d="M19 9l-7 7-7-7"
                     ></path>
                   </svg>
-                </a>
+                </router-link>
                 <div class="group inline-block">
                   <a
                     href="#"
