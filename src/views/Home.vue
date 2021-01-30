@@ -182,29 +182,29 @@
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
                       <a
-                        href="https:/hurley.fun"
+                        href="https:/withh.life"
                         target="_"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
-                        Portfolio
+                        Homepage
                       </a>
                     </li>
                     <li
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
                       <a
-                        href="https://tech.hurley.fun"
+                        href="https://article.withh.life"
                         target="_"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
-                        Tech Site
+                        Article
                       </a>
                     </li>
                     <li
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
                       <a
-                        href="https://blog.tech.fun"
+                        href="https://blog.withh.life"
                         target="_"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
@@ -215,7 +215,18 @@
                       class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
                     >
                       <a
-                        href="https://interview.hurley.fun"
+                        href="https://portfolio.withh.life"
+                        target="_"
+                        class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
+                      >
+                        Portfolio
+                      </a>
+                    </li>
+                    <li
+                      class="rounded-sm px-3 py-1 text-gray-700 hover:bg-blue-500"
+                    >
+                      <a
+                        href="https://interview.withh.life"
                         target="_"
                         class="block px-4 py-2 capitalize text-gray-700 hover:bg-blue-500 hover:text-white"
                       >
