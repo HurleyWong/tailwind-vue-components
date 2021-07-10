@@ -1,12 +1,38 @@
 <template>
   <div
-    class="min-h-screen min-w-full bg-gray-150 flex flex-col justify-center p-10"
+    class="
+      min-h-screen min-w-full
+      bg-gray-150
+      flex flex-col
+      justify-center
+      p-10
+    "
   >
     <div
-      class="relative w-full max-w-full lg:max-w-6xl xl:max-w-screen-2xl mx-auto"
+      class="
+        relative
+        w-full
+        max-w-full
+        lg:max-w-6xl
+        xl:max-w-screen-2xl
+        mx-auto
+      "
     >
       <div
-        class="absolute inset-0 -mr-3.5 bg-gradient-to-r from-red-100 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:rotate-3 sm:rounded-3xl"
+        class="
+          absolute
+          inset-0
+          -mr-3.5
+          bg-gradient-to-r
+          from-red-100
+          to-purple-500
+          shadow-lg
+          transform
+          -skew-y-6
+          sm:skew-y-0
+          sm:rotate-3
+          sm:rounded-3xl
+        "
       ></div>
       <div class="relative bg-white shadow-lg sm:rounded-3xl">
         <div class="flex items-center justify-start pt-6 pl-6">
@@ -20,7 +46,14 @@
           <div class="flex items-center justify-between">
             <div class="flex items-center justify-center">
               <div
-                class="flex items-center justify-center text-3xl font-bold text-true-gray-800"
+                class="
+                  flex
+                  items-center
+                  justify-center
+                  text-3xl
+                  font-bold
+                  text-true-gray-800
+                "
               >
                 <svg
                   class="w-10 h-10 mr-1 text-blue-700"
@@ -48,11 +81,36 @@
             <div class="hidden md:flex items-center justify-center">
               <router-link
                 to="/login"
-                class="mr-5 text-lg font-medium text-true-gray-800 hover:text-cool-gray-700 transition duration-150 ease-in-out"
+                class="
+                  mr-5
+                  text-lg
+                  font-medium
+                  text-true-gray-800
+                  hover:text-cool-gray-700
+                  transition
+                  duration-150
+                  ease-in-out
+                "
                 >Login</router-link
               >
               <button
-                class="px-6 py-3 rounded-3xl font-medium bg-gradient-to-b from-gray-900 to-black text-white outline-none focus:outline-none hover:shadow-md hover:from-true-gray-900 transition duration-200 ease-in-out"
+                class="
+                  px-6
+                  py-3
+                  rounded-3xl
+                  font-medium
+                  bg-gradient-to-b
+                  from-gray-900
+                  to-black
+                  text-white
+                  outline-none
+                  focus:outline-none
+                  hover:shadow-md
+                  hover:from-true-gray-900
+                  transition
+                  duration-200
+                  ease-in-out
+                "
               >
                 <router-link to="/register">Sign Up</router-link>
               </button>
@@ -66,7 +124,9 @@
               Hurley Huang
             </div>
             <div class="mt-6 text-xl font-light text-true-gray-500 antialiased">
-              <p class="font-semibold mb-5">Fresh graduated master at UoL</p>
+              <p class="font-semibold mb-5">
+                Fresh graduated master at University of Leeds
+              </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
                 odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
@@ -75,7 +135,25 @@
               </p>
             </div>
             <button
-              class="mt-6 px-8 py-4 rounded-full font-semibold tracking-wide bg-gradient-to-b from-blue-600 to-blue-700 text-white outline-none focus:outline-none hover:shadow-lg hover:from-blue-700 transition duration-200 ease-in-out"
+              class="
+                mt-6
+                px-8
+                py-4
+                rounded-full
+                font-semibold
+                tracking-wide
+                bg-gradient-to-b
+                from-blue-600
+                to-blue-700
+                text-white
+                outline-none
+                focus:outline-none
+                hover:shadow-lg
+                hover:from-blue-700
+                transition
+                duration-200
+                ease-in-out
+              "
             >
               Email me
             </button>
@@ -84,7 +162,23 @@
           <div class="lg:mt-14 lg:ml-20 text-left">
             <bottom
               type="button"
-              class="flex items-center justify-center w-12 h-12 rounded-full bg-cool-gray-100 text-gray-800 animate-bounce hover:text-gray-900 hover:bg-cool-gray-50 transition duration-300 ease-in-out cursor-pointer"
+              class="
+                flex
+                items-center
+                justify-center
+                w-12
+                h-12
+                rounded-full
+                bg-cool-gray-100
+                text-gray-800
+                animate-bounce
+                hover:text-gray-900
+                hover:bg-cool-gray-50
+                transition
+                duration-300
+                ease-in-out
+                cursor-pointer
+              "
             >
               <!-- <svg
                 class="w-6 h-6"
@@ -114,6 +208,6 @@
 // import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "About"
+  name: "About",
 };
 </script>
